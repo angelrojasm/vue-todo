@@ -61,7 +61,7 @@ methods: {
 
 <style>
 html {
-  background: linear-gradient(to bottom right, #04d8f9, #1c5476) fixed;
+  background: linear-gradient(to bottom right, #42b883, #35495e) fixed;
   margin: 0%;
   padding: 0%;
 }
@@ -86,7 +86,7 @@ button {
 	right: 5px;
 	height: 87%;
 	border: 1px solid darkgray;
-	background-color: #1f232a;
+	background-color: #00003a;
 	color: white;
 	font-weight: bold;
 	margin: 4px 0 0 0;
@@ -102,7 +102,7 @@ button:hover {
 }
 
 .title {
-	background-color: #1f232a;
+	background-color: #00003a;
 	width: 100%;
 	height: 20%;
 	text-align: center;
@@ -157,7 +157,7 @@ button:hover {
 
 #header {
 	background-color: black;
-	opacity: 0.85;
+	opacity: 0.80;
   height: fit-content;
 	display: flex;
 	justify-content: center;
@@ -173,6 +173,7 @@ button:hover {
 
 #header h2 {
 	color: white;
+	white-space: nowrap;
 }
 
 #header-content {
@@ -183,10 +184,12 @@ button:hover {
 }
 
 #logo {
-	height: 100px;
-	width: 100px;
+	height: 75px;
+	width: 75px;
 	margin: 0;
-	padding: 0;
+	padding: 2%;
+	margin-left: 10%
+	
 }
 
 </style>
