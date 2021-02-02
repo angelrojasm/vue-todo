@@ -40,7 +40,7 @@ export default {
   },
   data() {
     return {
-    taskArr: ['hola'],
+    taskArr: [],
     inputText: '',
      
   }
@@ -64,6 +64,7 @@ html {
   background: linear-gradient(to bottom right, #42b883, #35495e) fixed;
   margin: 0%;
   padding: 0%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 input {
